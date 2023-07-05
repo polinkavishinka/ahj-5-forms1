@@ -1,0 +1,42 @@
+.my-popoverButton {
+  position: relative;
+  top: 50%;
+  color: #fff;
+  background-color: #f00;
+  border: #f00 1px solid;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  padding: 15px 25px 15px 25px;
+}
+.my-popover, .my-popover-title, .my-popover-body {
+  border: 1px solid #bbb;
+}
+.my-popover {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 7px;
+}
+.my-popover-title {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  min-height: 2em;
+  background-color: #ddd;
+}
+.my-popover-title-text {
+  font-size: 1.2em;
+  margin-left: 5px;
+}
+.my-popover-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 3em;
+}
+.my-popover-body-text {
+  text-align: left;
+  margin-left: 5px;
+}
+.my-popover-invisible {
+  display: none;
+}
